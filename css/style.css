@@ -1,0 +1,75 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+#choices {
+	margin-bottom: 30px;
+}
+
+#choices button {
+	font-size: 7rem;
+	min-width: 160px;
+	margin: 0 10px;
+	border-radius: 50%;
+	background-color: hsl(187, 88%, 54%);
+	cursor: pointer;
+	transition: background-color 0.5 ease;
+}
+
+#displayPlayer,
+#displayCom {
+	font-size: 4rem;
+	margin: 20px;
+}
+
+#displayResult {
+	font-size: 5rem;
+}
+
+.greenText {
+	color: hsl(121, 71%, 63%);
+}
+.redText {
+	color: tomato;
+}
+
+#pointsSection {
+	margin-top: 20px;
+	font-size: 5rem;
+}
+
+@media only screen and (max-width: 400px) {
+	body {
+		width: auto;
+	}
+	h1 {
+		font-size: 1.8em;
+	}
+
+	#choices button {
+		font-size: 2em;
+		min-width: 50px;
+	}
+
+	#displayPlayer,
+	#displayCom {
+		font-size: 2em;
+		margin: 20px;
+	}
+	#displayResult {
+		font-size: 2em;
+	}
+	#pointsSection {
+		font-size: 2em;
+	}
+}
