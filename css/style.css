@@ -28,7 +28,7 @@ h1 {
 
 #displayPlayer,
 #displayCom {
-	font-size: 4rem;
+	font-size: 3rem;
 	margin: 20px;
 }
 
@@ -36,10 +36,12 @@ h1 {
 	font-size: 5rem;
 }
 
-.greenText {
+.greenText,
+#playerPts {
 	color: hsl(121, 71%, 63%);
 }
-.redText {
+.redText,
+#comPts {
 	color: tomato;
 }
 
